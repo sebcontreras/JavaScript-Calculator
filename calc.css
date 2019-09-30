@@ -1,0 +1,99 @@
+html {
+    box-sizing: inherit;
+    background: linear-gradient(#6458B3,#7DAEB3,white) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  button {
+    border: 0.1px solid black;
+    border-radius: 100%;
+    padding: 10px 10px;
+    height: 120px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+  }
+  
+  :root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  
+  @media (min-width: 500px){
+    .container {
+      width: 900px;
+      max-width: 600px;
+      background-color: black;
+      border: 20px solid black;
+      border-radius: 8%;
+    }
+    .container-fluid {
+      max-width: 600px;  
+    }
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, 5%);
+  }
+  
+  .display {
+    display: grid;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    font-size: 60px;
+    width: 520px;
+  }
+  
+  .keys {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    font-size: 40px;
+    grid-gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    opacity: 1;
+  }
+  
+  .operation-button {
+    background-color:#B2B1B3;
+  }
+  
+  .number-button {
+    background-color: white;
+  }
+  
+  .equals-button {
+    background-color: #ff7033;
+    
+  }
+  
+  .AC-button {
+    background-color: #B38F6B;
+  }
+  
+  .decimal-button {
+    background-color: white;
+  }
+  
+  .bracket-button {
+    background-color: #B2B1B3;  
+  }
+  
+  #backspace-button {
+    text-align:center;
+    align-items: center;
+  }
+
+  button:hover {
+    opacity: 0.5;
+  }

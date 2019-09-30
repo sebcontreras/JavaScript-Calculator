@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="calc.css" type="text/css">
+    <title>Calculator</title>
+    
+    
+    <script></script>
+    <style></style>
+
+  </head>
+  
+  <body>
+      <div class="container">
+          <p> sup dawg </p>
+          <div class="calculator">
+            <div class="display" id="screen">
+               0 
+            </div>
+            
+            <div class="keys">
+              <button onclick="func_add()" class="operation-button">+</button>
+              <button onclick="func_subtract()" class="operation-button">-</button>
+              <button onclick="func_multiply()" class="operation-button">x</button>
+              <button onclick="func_divide()" class="operation-button">÷</button>
+              <button id="7" value="7" onclick="func_num(7)" class="number-button">7</button>
+              <button id="8" value="8" onclick="func_num(8)" class="number-button">8</button>
+              <button id="9" value="9" onclick="func_num(9)"class="number-button">9</button>
+              <button onclick="func_L_bracket()" class="bracket-button">(</button>
+              <button id="4" value="4" onclick="func_num(4)"class="number-button">4</button>
+              <button id="5" value="5" onclick="func_num(5)"class="number-button">5</button>
+              <button id="6" value="6" onclick="func_num(6)"class="number-button">6</button>
+              <button onclick="func_R_bracket()" class="bracket-button">)</button>
+              <button id="1" value="1" onclick="func_num(1)"class="number-button">1</button>
+              <button id="2" value="2" onclick="func_num(2)"class="number-button">2</button>
+              <button id="3" value="3" onclick="func_num(3)"class="number-button">3</button>
+              <button onclick= "func_backspace()" id="backspace-button" class="operation-button">DEL</button>
+              <button id="0" value="0" onclick="func_num(0)"class="number-button">0</button>
+              <button onclick="func_decimal()" class="decimal-button">.</button>
+              <button id="clear" onclick="func_clear()" class="AC-button">AC</button>
+              <button onclick="func_eval()" class="equals-button">=</button>
+            </div>
+          </div>
+        </div>
+        <script src="calc.js"></script>
+  
+      </body>
+</html>
